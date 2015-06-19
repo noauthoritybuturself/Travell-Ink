@@ -1,0 +1,258 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+
+font-family: 'Raleway', sans-serif;
+color:black;
+}
+
+
+
+.main-navbar{
+  background: none;
+  border:none;
+  margin-bottom: -50px
+}
+
+.main-navbar .navbar-right li a{
+
+  text-transform: uppercase;
+    padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.main-navbar .navbar-right{
+
+  margin-top: 25px
+}
+
+.main-navbar .navbar-right li a.last{
+
+  padding-right:0px;
+}
+
+
+.main-navbar .navbar-right{
+
+  border-bottom: 4px black solid;
+}
+
+.logo_nav{
+height:140px;
+
+}
+
+.banner{
+
+  height:400px;
+  background-color: grey;
+}
+
+.section-title h1{
+  text-transform: uppercase;
+
+
+}
+
+.contacts{
+
+  margin-top:10px;
+}
+
+#infoMessage{
+
+  background-color: greenyellow;
+}
+
+.artist_profile_name{
+
+  margin-top: 0px;
+    text-transform: uppercase;
+}
+
+.profile_img{
+  display: inline-block;
+  width:100%;
+}
+
+.profile_description{
+
+  height: 200px;
+
+}
+
+.profile_social img{
+
+  height:25px;
+  margin-right:5px;
+
+}
+
+.profile_description_bottom{
+  position: absolute;
+  bottom: 0;
+}
+
+.profile_description_bottom div{
+
+  display:inline-block;
+}
+
+.profile_styles{
+  margin-left:150px;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+.profile_styles p{
+
+  margin-bottom: 0px;
+}
+
+
+
+
+.sort_button{
+
+  float:right;
+  margin-right:20px;
+}
+
+
+.gallery-box{
+
+  height:240px;
+  margin-top:30px;
+  overflow-y: scroll
+}
+
+
+.gallery_thumbnail{
+
+  width:90px;
+  height:80px;
+  margin-left:48px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  display:inline-block;
+  margin-right: 0px;
+}
+
+
+.edit_button{
+
+  width:30px;
+  position: absolute;
+  right:17px;
+  bottom:-14px;
+}
+
+.edit_button img{
+  width: 30px;
+}
+
+#edit_button_profile_picture{
+    right:17px;
+  bottom:-14px;
+
+}
+
+#edit_button_gallery_cover{
+  bottom:0px;
+
+}
+
+#edit_button_styles{
+  left:-30px;
+  top:0px;
+
+}
+
+#edit_button_profile_description{
+  top:0px;
+}
+.popover{
+    max-width: 100%;
+}
+
+.popover-content{
+
+  font-size: 10px;
+  padding:2px;
+
+  }
+
+  .popover-content p{
+    padding: 6px 10px;
+
+  }
+
+.popover-content p:hover{
+  background-color: rgb(172, 172, 172);
+  cursor: pointer;
+
+}
+
+.sketch_cover{
+  max-width: 100%;
+  position: relative;
+  z-index: 100;
+  background: url('../img/sketch.png') ;
+  background-size: cover;
+}
+
+.frame-wrapper {position: relative;}
+.img-with-frame {
+
+  position: absolute; 
+
+  top: 0px; 
+
+  left: 0px;
+  width:100%;
+
+}
+
+.sketch_frame{
+
+  position: absolute; 
+
+  top: -5px; 
+
+  left: -5px;
+
+  width:105%;
+  height: auto;
+}
+
+.gallery_cover_wrapper{
+  height:212px;
+}
+
+
+.pac-container{
+
+  z-index:2000;
+}
+
+.nomargin{
+  margin: 0;
+}
+
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
